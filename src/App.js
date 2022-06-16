@@ -4,7 +4,7 @@ import ColorList from './Components/ColorOrganizer/ColorList';
 import AddColorForm from './Components/ColorOrganizer/AddColorForm';
 import {v4} from "uuid"; 
 
-function App() {
+const App = () => {
   const value = 'Cesar, Welcome to the Rest of Your Life';
   const [colors, setColors] = useState(colorData);
 
